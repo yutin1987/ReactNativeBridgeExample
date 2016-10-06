@@ -3,10 +3,14 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
+    "build-icon": "node script/build-icon.js; svg2ttf font/CustomIcons.svg font/CustomIcons.ttf",
     "start": "node node_modules/react-native/local-cli/cli.js start"
   },
   "dependencies": {
+    "lodash": "^4.16.3",
     "react": "15.3.2",
-    "react-native": "^0.34.1"
+    "react-native": "^0.34.1",
+    "svg2ttf": "^4.0.2",
+    "svgicons2svgfont": "^5.0.0"
   }
 }
