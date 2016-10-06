@@ -1,3 +1,5 @@
 rootProject.name = 'ReactNativeBridge'
 
 include ':app'
+include ':react-native-configs'
+project(':react-native-configs').projectDir = new File(rootProject.projectDir, '../Libraries/RNConfigs/android')

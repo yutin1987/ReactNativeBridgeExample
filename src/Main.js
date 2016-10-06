@@ -6,12 +6,13 @@ import {
   View
 } from 'react-native';
 import Icon from './component/Icon/Icon';
+import Configs from 'react-native-configs';
 
 export default class Main extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <Icon name="love" />
+        <Icon name="love" size={46} color="#FF3366" />
         <Text style={styles.welcome}>
           Welcome to React Native!
         </Text>
